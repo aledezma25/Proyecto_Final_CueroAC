@@ -16,19 +16,19 @@
 
 </head>
 <body>
-    <header class="site-header inicio">
+<header class="site-header">
         <div class="contenedor contenido-header">
             <div class="barra">
-                
-                <p class="tv">Tienda Virtual</p>
+                <a href="/">
+                    <p class="tv">Tienda Virtual</p>
+                </a>
                 <div class="mobile-menu">
                     <a href="#navegacion">
                         <img src="img/menu.png" alt="Icono menu">
                     </a>
                 </div>
-
                 <nav id="navegacion" class="navegacion">
-                    <a href="productos">Productos</a>
+                <a href="productos">Productos</a>
                     <a href="/nosotros">Nosotros</a>
                     <!-- <a href="blog.html">Blog</a> -->
                     <a href="contacto.html">Contacto</a>
@@ -63,76 +63,62 @@
                 </div>
             @endif
                 </nav>
-
             </div>
-            <h1>Cuero Mercancía A.C</h1>
         </div>
     </header>
 
-    <section class="contenedor seccion">
-        <!-- <h2 class="fw-300 centrar-texto">Mas Sobre Nosotros</h2> -->
-        <div class="iconos-nosotros">
-            <div class="icono">
-                <img src="img/medalla.png" width="50px" alt="">
-                <h3>Info</h3>
-                <p>Cuero Mercancía A.C es una microempresa dedicada a vender todo tipo de artículos hechos con cuero, con terminados impecables y a excelentes precios.</p>
-            </div>
-            <div class="icono">
-                <img src="img/entrega.png" width="50px" alt="">
-                <h3>Envíos</h3>
-                <p>Realizamos envíos a nivel nacional de todos y cada uno de nuestros artículos, garantizando la entraga en los tiempos oportunos.</p>
-            </div>
-            <div class="icono">
-                <img src="img/marcador-de-posicion.png" width="50px" alt="">
-                <h3>Local</h3>
-                <p>Ventas locales, completamente seguras, surtido al por mayor</p>
-            </div>
-        </div>
-    </section>
+    <main class="contenedor">
+        <h1 class="fw-300 centrar-texto" >Conoce sobre Nosotros</h1>
 
-    <main class="seccion contenedor">
-        <h2 class="fw-300 centrar-texto">Productos Destacados</h2>
-        <div class="contenedor-anuncios">
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <img src="img/nosotros.jpg" height="610px" alt="">
+            </div>
+            <div class="texto-nosotros">
+                <blockquote>25 Años de Experiencia</blockquote>
+            
+            <p>
+                Cuero Mercancía A.C, es una un tipo de Tienda virtual, 
+                con puntos de ventas presenciales en Manizales y La Cruz Nariño; 
+                todos estos productos son exportados de varias empresas belenitas situada en el 
+                municipio de Belén al norte del Departamento de Nariño en el suroccidente Colombiano;
+                Estas microempresas se dedican a la fabricación y comercialización 
+                de artículos y accesorios en cuero a nivel internacional. Los productos que ofrecemos es de calidad 
+                tipo aportación, cumpliendo rigurosamente estándares de calidad en su materia prima, 
+                herrajes y proceso productivo. Nuestro productos se focalizan para cualquier tipo de clientes
+                y para clientes mayoristas a un costo realmente competitivo.
+            </p>
+           
+            </div>
+        </div>
 
-            <div class="anuncio">
-                <img src="img/productos/anuncio1.jpg" width="1000px" alt="">
-                <div class="contenido.anuncio">
-                    <h3>Cartera para dama </h3>
-                    <p> Hermosas carteras con terminados perfectos y bonitos colores. </p>
-                    <p class="precio">$25.000</p>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver producto</a>
-                </div>
-            </div>
-            <div class="anuncio">
-                <img src="img/productos/anuncio2.jpg" width="1000px" alt="">
-                <div class="contenido.anuncio">
-                    <h3>Billetera para caballero </h3>
-                    <p>Finas billeteras con acabados bien definidos y perfecto espacio. </p>
-                    <p class="precio">$40.000</p>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver producto</a>
-                </div>
-            </div>
-            <div class="anuncio">
-                <img src="img/productos/anuncio3.jpg" width="1000px" alt="">
-                <div class="contenido.anuncio">
-                    <h3>Bolso tres F dama </h3>
-                    <p> Bolso para dama de gran capacidad para uso diario, casual y elegente.</p>
-                    <p class="precio">$70.000</p>
-                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver producto</a>
-                </div>
-            </div>
-        </div>
-        <div class="ver-todas">
-            <a href="/productos" class="boton boton-verde">Ver todos los Productos</a>
-        </div>
     </main>
 
-    <section class="imagen-contacto">
-        <div class="contenedor contenido-contacto" >
-            <h2 class="contac">Cuero Mercancía A.C</h2>
-            <p class="contac">Toda clase de artículos 100% cuero</p>
-            <a href="contacto.html" class="boton boton-amarillo">Contactanos</a>
-        </div>  
+    <section class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Mas sobre nosotros</h2>
+        <section class="contenedor seccion">
+            <!-- <h2 class="fw-300 centrar-texto">Mas Sobre Nosotros</h2> -->
+            <div class="iconos-nosotros">
+                <div class="icono">
+                    <img src="img/medalla.png" width="50px" alt="">
+                    <h3>Info</h3>
+                    <p>Cuero Mercancía A.C es una microempresa dedicada a vender todo tipo de artículos hechos con cuero, con terminados impecables y a excelentes precios.</p>
+                </div>
+                <div class="icono">
+                    <img src="img/entrega.png" width="50px" alt="">
+                    <h3>Envíos</h3>
+                    <p>Realizamos envíos a nivel nacional de todos y cada uno de nuestros artículos, garantizando la entraga en los tiempos oportunos.</p>
+                </div>
+                <div class="icono">
+                    <img src="img/marcador-de-posicion.png" width="50px" alt="">
+                    <h3>Local</h3>
+                    <p>Ventas locales en Manizales y La Cruz Nariño, completamente seguras, surtido al por mayor</p>
+                </div>
+            </div>
+        </section>
+        
+           
+        
     </section>
 
     <footer class="site-footer seccion">
@@ -143,6 +129,7 @@
             <p class="copyright">Todos los derechos reservados 2022 &copy;</p>
         </div>
     </footer>
+ 
   
 </body>
 </html>
